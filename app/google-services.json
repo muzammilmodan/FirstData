@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "255328528769",
+    "firebase_url": "https://testdemo-2722c.firebaseio.com",
+    "project_id": "testdemo-2722c",
+    "storage_bucket": "testdemo-2722c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255328528769:android:27a2e64694c27c2e42e080",
+        "android_client_info": {
+          "package_name": "com.example.testpracticalnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255328528769-2s5oeuc716g9svookglmlf2doaoj29fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQX4mNyfMxgvmXhRAhDoJC58Dh4dQUURU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255328528769-2s5oeuc716g9svookglmlf2doaoj29fe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255328528769:android:3035a85de43dd67242e080",
+        "android_client_info": {
+          "package_name": "com.googlemapwithdrawpathapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255328528769-2s5oeuc716g9svookglmlf2doaoj29fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQX4mNyfMxgvmXhRAhDoJC58Dh4dQUURU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255328528769-2s5oeuc716g9svookglmlf2doaoj29fe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

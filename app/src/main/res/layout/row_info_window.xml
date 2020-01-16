@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_108sdp"
+            android:paddingLeft="@dimen/_25sdp"
+            android:paddingTop="@dimen/_13sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:background="@android:color/white">
+        <TextView
+                android:id="@+id/tvNameRIW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sample User 1"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_14ssp"/>
+        <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/llStatusRIW"
+                android:layout_below="@+id/tvNameRIW"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_8sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_height="@dimen/_8sdp"/>
+
+            <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Pending"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:id="@+id/tvStatusRIW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/llAddressRIW"
+                android:layout_below="@+id/llStatusRIW"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_map_gry"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"/>
+
+            <TextView
+                    android:layout_marginLeft="@dimen/_1sdp"
+                    android:textColor="@color/txt_hint"
+                    android:text="123 Sample Street, Saskatoon, SK"
+                    android:textSize="@dimen/_9ssp"
+                    android:id="@+id/tvAddressRIW"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/llOfficeRIW"
+                android:layout_below="@+id/llAddressRIW"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"/>
+
+            <TextView
+                    android:textColor="@color/txt_hint"
+                    android:text="Company 1"
+                    android:textSize="@dimen/_9ssp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:id="@+id/tvOfficeRIW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

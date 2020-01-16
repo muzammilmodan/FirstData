@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="app_bg">#0162B1</color>
+    <color name="welcome_bg">#0162B1</color>
+    <color name="app_bg_b">#464543</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="off_white">#f2f2f2</color>
+    <color name="forgot_pw">#7ad7d7d7</color>
+    <color name="white_sd">#80FFFFFF</color>
+    <color name="trans">#00000000</color>
+    <color name="lgn_bg">#5A5246</color>
+    <color name="trans_1">#7ad7d7d7</color>
+    <color name="hm_service_bg">#464543</color>
+
+    <color name="more_title">#E8D6C5</color>
+    <color name="warning_bg">#000000</color>
+    <color name="error_bg">#FF0000</color>
+    <color name="success_bg">#5AC84B</color>
+    <color name="app_bg_sado">#A6df4625</color>
+    <color name="bg_transparand">#80FFFFFF</color>
+    <color name="txt_hint">#666666</color>
+    <color name="transparent">#80FFFFFF</color>
+    <color name="home_bg">#26000000</color>
+
+    <color name="dark_gray">#70000000</color>
+    <!--App color-->
+    <color name="sign_in_btn">#61ADE0</color>
+    <color name="top_screen_bg">#242424</color>
+    <color name="login_btn">#486496</color>
+    <color name="post_bg">#8A000000</color>
+    <color name="place_bg">#97000000</color>
+
+    <color name="blue">#034dea</color>
+
+    <color name="slider_bg">#395797</color>
+
+    <color name="progress_color">#ffffff</color>
+    <color name="red">#F63D2B</color>
+    <color name="lime">#3AB632</color>
+    <color name="group_divider_color">#80CBC4</color>
+    <color name="pink">#F48FB1</color>
+    <color name="gray">#cdcdcd</color>
+
+    <color name="text_color">#FFFFFF</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#ffe74c3c</color>
+
+    <color name="header_bg">#26000000</color>
+    <color name="tab_bg">#1A5675</color>
+    <color name="tab_bg_view">#3F4040</color>
+
+    <color name="colorMainBackground">#E0F2F1</color>
+    <color name="view_bg">#dddddd</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#ffa000</color>
+    <color name="dot_inactive_screen2">#008c57</color>
+    <color name="dot_inactive_screen3">#0e1e49</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#D9000000</color>
+    <color name="dot_active_screen2">#1A000000</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+    <color name="bg_hint">#EEEEEE</color>
+
+
+    <color name="job_details_tab_bg">#EEEEEE</color>
+    <color name="welcome_detail_txt_clr">#dcbfa2</color>
+    <color name="more_tab_detail_color">#E8D6C5</color>
+    <color name="txt_hint_clr">#777777</color>
+    <color name="welcome_bg_new">#FFFFFF</color>
+    <color name="wel_text">#a9a9aa</color>
+    <color name="new_lgn_bg">#464543</color>
+    <color name="btn_bg">#464543</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen1</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen2</item>
+    </array>
+
+    <color name="qut_txt">#C0C0C0</color>
+    <color name="hint1">#999999</color>
+    <color name="quote_time">#797979</color>
+
+    <color name="selected_emp_clr">#FFFAF2</color>
+</resources>
